@@ -1,0 +1,152 @@
+body{
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+i{
+    margin: 5px 15px;
+}
+
+.gray-color{
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+.white-color{
+    color: rgba(255, 255, 255, 0.418);
+}
+
+.blue-color{
+    color: #4e73df;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.black-color{
+    color: black !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.green-color{
+    color: rgb(2, 168, 44) !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.side{
+    background-color: #4e73df !important;
+    /* padding-top: 20px 20px !important; */
+}
+.side .sidebar {
+    padding: 10px 30px !important;
+}
+
+/* cards style */
+.first-side {
+   padding-top: 20px
+}
+
+.margin-top20px{
+    margin-top: 20px;
+}
+
+.margin-left20px{
+    margin-left: 20px;
+}
+.margin-right20px{
+    margin-right: 20px;
+}
+
+.first-card-padding{
+    padding-left: 40px !important;
+}
+
+.last-card-padding{
+    padding-right: 40px !important;
+}
+
+.padding-left40px{
+    padding-left: 10px !important;
+}
+
+.padding-right40px{
+    padding-right: 10px !important;
+}
+
+.border-left-primary {
+    border-left: .25rem solid #4e73df!important;
+}
+
+.green{
+    border-left: .25rem solid #01c92c!important;
+}
+
+.pink{
+    border-left: .25rem solid #c901b8!important;
+}
+.yellow{
+    border-left: .25rem solid #e8ec03!important;
+}
+
+.size50px{
+    height: 70px;
+    width: 350px;
+}
+
+.negative-value-margin-top{
+    margin-top: -100px;
+}
+/* end of card style */
+
+span {
+    padding-bottom: 20px;
+}
+.side .sidebar > li {
+    padding-bottom: 20px;
+}
+.side .sidebar > li > a {
+    color: white !important;
+}
+
+/* saa */
+
+.nav-left{
+    padding-left: 0px !important;
+}
+
+.centered{
+    margin: 0 25% !important;
+}
+
+.btn-outline-light{
+    border: none !important;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+.btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .show>.btn-outline-light.dropdown-toggle{
+    background-color: #4e73df !important;
+    border: none;
+}
+
+.btn-outline-light.focus, .btn-outline-light:focus {
+    box-shadow: none !important;
+}
+
+.btn-outline-light:hover {
+    background-color: transparent !important;
+}
+
+.btn-outline-success {
+    color: white !important;
+    background-color: #4e73df !important;
+    border: none !important;
+}
+
+.wrapper{
+    /* background-color: #f8f9fc !important; */
+    background-color: rgb(230, 230, 230) !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
+} 

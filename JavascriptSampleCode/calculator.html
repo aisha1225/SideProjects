@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="calc.js"></script>
+    <div class="body">
+        <div class="navbar">
+            <div style="margin-left: 20rem">
+                <a href="index.html" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+
+</head>
+<body>
+<div class="centering" style="color: white">
+    <h2>Calculator</h2>
+    <h5 style="display: inline-block">First number:</h5>
+    <input id="num1" type="text" name="firstname">
+    <h5 style="display: inline-block">Second number</h5>
+    <input id="num2" type="text" name="lastname">
+    <br><br>
+    <div class="centering1">
+        <button id="add" onclick="myFunction()">+</button>
+        <button id="minus" onclick="minus()">-</button>
+        <button id="multiply" onclick="multiply()">x</button>
+        <button id="divide" onclick="divide()">/</button>
+        <div class="total-center">
+       <h3 id="total">Total:</h3>
+        </div>
+    </div>
+</div>
+</body>
+</html>
